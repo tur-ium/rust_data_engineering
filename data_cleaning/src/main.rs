@@ -3,7 +3,7 @@ use datafusion::prelude::*;
 
 #[tokio::main]
 async fn main() -> datafusion::error::Result<()>{
-    let csv_path = "example_csv.csv";
+    let csv_path = "example_2.csv";
     let n = 10;
 
     let ctx = SessionContext::new();
